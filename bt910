@@ -1,0 +1,24 @@
+public class bt910 {
+
+    public class Phantu<T>{
+        private T t;
+    }
+    public T getT() {
+        return t;
+    }
+    public void setT(T t) {
+        this.t = t;
+    }
+    //Các lớp T có phương thức đối sánh hai phần tử isGreaterThan(T a).
+    public T isGreaterThan(T a) {
+
+        if (t.compareTo(a) < 0) {
+            return a;
+        } else return t;
+    }
+
+   // Chương trình cho phép đọc dữ liệu các số nguyên từ tệp input và tiến hành sắp xếp lưu ra tệp output.
+
+
+
+}
